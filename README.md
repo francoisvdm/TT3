@@ -7,6 +7,7 @@ To run: Download the binary TT3.exe and the paho-mqtt3c.dll from the "release" d
 
 Documentation - not complete at the moment
 -------------
+### The main window
 The main window is represented by the following picture:
 
 ![](https://raw2.github.com/francoisvdm/TT3/master/TT3Screenshot.JPG)
@@ -14,6 +15,7 @@ The main window is represented by the following picture:
 To restart the application with most of your supplied information filled in, remember to click the "save" button
 after changes.  This will update the associated .ini file
 
+### Replay Messages
 To save all the messages in the "Subscriptions Received" listbox click on the "Save Msgs" button.  This will create a file TT3replay.mqtt with the following layout:
 
 ![](https://raw2.github.com/francoisvdm/TT3/master/TT3replay.JPG)
@@ -24,10 +26,12 @@ If you edit the soure file by hand please ensure to press enter at the end of th
 
 Please note that due to some timing issues, do not subscribe to the same topics in the same running instance of TT3, start up a seperate TT3 instance to do the replay from.  Sorry.
 
+### Performance Tests
 To set up some performance tests, click on "Settings"
 
 ![](https://raw2.github.com/francoisvdm/TT3/master/Settings.JPG)
 
+### Receive Alerts
 To receive alerts when specific text strings appear in a message received, click on "Alert".
 
 ![](https://raw2.github.com/francoisvdm/TT3/master/Alert.jpg)
@@ -36,6 +40,7 @@ To add a new alert complete the string to search for and what beep frequency and
 
 The "Save" button will add the alerts to the TT3.ini file so that next time TT3 starts it will populate the listbox with the entries from the ini file.
 
+### Publish Messages on a regular basis
 To publish messages on a regular basis, click on "Exerciser".
 
 ![](https://raw2.github.com/francoisvdm/TT3/master/Exerciser.JPG)
