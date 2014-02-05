@@ -26,6 +26,8 @@ If you edit the soure file by hand please ensure to press enter at the end of th
 
 Please note that due to some timing issues, do not subscribe to the same topics in the same running instance of TT3, start up a seperate TT3 instance to do the replay from.  Sorry.
 
+To change the source file name and/or to replay in a loop, click on "Replay Setup" and then complete the popup window.
+![](https://raw2.github.com/francoisvdm/TT3/master/TT3replaySetup.JPG)
 ### Performance Tests
 To set up some performance tests, click on "Settings"
 
